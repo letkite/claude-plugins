@@ -22,6 +22,10 @@ Streamable HTTP). Sign in with your LetKite account in the browser window that
 opens on first use; there is no API key. Documentation:
 [docs.letkite.com](https://docs.letkite.com/).
 
+The plugin also ships a `letkite` skill that teaches Claude to use the server
+safely: survey the fleet before acting, confirm high-risk commands, validate
+configuration before reloading.
+
 Prefer plain MCP configuration instead of a plugin?
 
 ```bash
