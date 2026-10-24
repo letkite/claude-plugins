@@ -61,7 +61,7 @@ or hand over a secret, stop and tell the user instead.
 
 ## Read-only connections
 
-Some connections are read-only (letkite/letkite#560): `tools/list` only
+Some connections are read-only: `tools/list` only
 offers read-only tools and any write fails. In such a connection, only
 inspect — `list_hosts`, `host_facts`, `list_dir`, `read_file`, `job_status`,
 `audit_tail`, ... — and do not attempt changes.
