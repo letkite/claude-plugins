@@ -1,0 +1,15 @@
+{
+  "name": "letkite",
+  "owner": {
+    "name": "LetKite",
+    "email": "contact@letkite.com"
+  },
+  "description": "LetKite plugins: connect AI clients to your machines over MCP.",
+  "plugins": [
+    {
+      "name": "letkite",
+      "description": "Reach the machines in your LetKite account from Claude: files, terminal, scheduled jobs and more, behind approvals and an audit log.",
+      "source": "./plugins/letkite"
+    }
+  ]
+}

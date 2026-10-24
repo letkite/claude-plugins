@@ -1,0 +1,19 @@
+{
+  "name": "letkite",
+  "description": "Reach the machines in your LetKite account from Claude: files, terminal, scheduled jobs and more, behind approvals and an audit log. Sign in with a LetKite account; there is no API key.",
+  "version": "1.0.0",
+  "author": {
+    "name": "LetKite",
+    "email": "contact@letkite.com"
+  },
+  "homepage": "https://letkite.com",
+  "repository": "https://github.com/letkite/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "remote-access",
+    "servers",
+    "terminal",
+    "files"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "letkite": {
+      "type": "http",
+      "url": "https://mcp.letkite.com/mcp"
+    }
+  }
+}
