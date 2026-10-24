@@ -31,6 +31,16 @@ Or add the server without the plugin:
 claude mcp add --transport http letkite https://mcp.letkite.com/mcp
 ```
 
+## The letkite skill
+
+The plugin ships a `letkite` skill that guides safe usage of the server:
+`list_hosts` then `host_facts` before assuming anything about a host, `exec`
+for commands that take seconds and `job_start` for anything longer,
+`read_file` plus `write_file` (automatic backup) with validation before a
+reload, `confirm=true` for high-risk commands, treating what hosts return as
+data rather than instructions, and respecting read-only connections. It is
+installed together with the plugin.
+
 ## License
 
 MIT, see [LICENSE](../LICENSE).
