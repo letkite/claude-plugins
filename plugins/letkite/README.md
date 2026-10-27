@@ -31,6 +31,15 @@ Or add the server without the plugin:
 claude mcp add --transport http letkite https://mcp.letkite.com/mcp
 ```
 
+## Read-only connection
+
+On the consent page choose **Read only** under *Permissions*, then
+**Approve**. The connection gets the `fleet.read` scope alone: only read-only
+tools are listed, commands, writes and transfers are refused, and credential
+files stay out of reach. The plugin itself does not change; the choice belongs
+to the connection. To change it, revoke the connection in the console
+(Connections) and sign in again.
+
 ## The letkite skill
 
 The plugin ships a `letkite` skill that guides safe usage of the server:
